@@ -173,13 +173,6 @@
     background: url("../images/bj/iconlist_2.png") no-repeat -570px 0;
 }
 
-@media only screen and (max-width: 1025px) {
-    
-}
-
-
-
-
 
 /************************zhineng***********************************************/
 #zhineng {
@@ -232,9 +225,6 @@
     line-height: 27px;
     color: #6e6964;
     font-size: 1.6rem;
-}
-@media only screen and (max-width: 1025px) {
-    
 }
 /***************************dingwei**************************************************/
 #dingwei {
@@ -294,23 +284,17 @@
     }
     #hujiao>.hj1>div>h1 {
         margin-left: 300px;
-
     }
     #hujiao>b {
         margin-right: 170px;
     }
     #zhineng>b {
-
         margin-left: 170px;
     }
     #zhineng>.zn1 {
-
         margin-right: 30px;
     }
-
-
     #dingwei>b {
-
         margin-left: 220px;
     }
 }
@@ -323,24 +307,18 @@
     #hujiao>.hj1>div>h1 {
         margin-left: 300px;
     }
-#zhineng>b {
-        
+   #zhineng>b {
         margin-left: 70px;
     }
     #zhineng>.zn1 {
-
         margin-right: 30px;
     }
-    }
+    
     #hujiao>b {
         margin-right: 100px;
     }
     
-    
-    
-    
     #dingwei>b {
-        
         margin-left: 100px;
     }
 }
