@@ -173,7 +173,7 @@
     background: url("../images/bj/iconlist_2.png") no-repeat -570px 0;
 }
 
-@media only screen and (max-width: 1008px) {
+@media only screen and (max-width: 1025px) {
     #hujiao>.hj1 {
         margin-left: 48px;
     }
@@ -242,9 +242,9 @@
     color: #6e6964;
     font-size: 1.6rem;
 }
-@media only screen and (max-width: 1008px) {
+@media only screen and (max-width: 1025px) {
     #zhineng>b {
-        width: 47%;
+        
         margin-left: 70px;
     }
     #zhineng>.zn1 {
@@ -304,9 +304,9 @@
     font-size: 1.6rem;
 }
 
-@media only screen and (max-width: 1008px) {
+@media only screen and (max-width: 1025px) {
     #dingwei>b {
-        width: 29%;
+        
         margin-left: 100px;
     }
 }
