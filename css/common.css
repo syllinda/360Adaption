@@ -1,0 +1,407 @@
+﻿
+/*******************************banner**********************************************/
+#banner {
+    width: 100%;
+    height: 700px;
+    border:1px solid #e9e9e9;
+    margin: 0 auto;
+    background: url("../images/bj/bg_1.jpg") no-repeat center center;
+}
+#banner .content .title {
+    width:458px;
+    height:56px;
+    margin:0 auto;
+    /*border:1px solid black;*/
+    /*banner会向下移136px,解决方法在#banner中加border:     或者overflow：hide 或*/
+    margin-top: 136px;
+    /*background: url("../images/iconlist_1.png") no-repeat -870px 0;*/
+}
+#banner .content .title h1 {
+    color:#555555;
+    font-size: 5.2rem;
+    font-family: "微软雅黑", Arial, "Adobe Arabic";
+    font-weight: 500;
+    letter-spacing: 6px;
+    margin-top: -7px;
+    text-align: center;
+}
+#banner .content>p {
+    text-align: center;
+    padding-top: 32px;
+    font-size: 1.8rem;
+    color:#a5aaa2;
+}
+#banner .content ul {
+    width:780px;
+    margin: 0 auto;
+    margin-top: 89px;
+}
+#banner .content ul li {
+    position:relative ;
+}
+#banner .content ul li i,#banner .content ul li b {
+    background: url("../images/iconlist_1.png") no-repeat;
+}
+#banner .content ul li i {
+    display: block;
+    width:174px;
+    height: 175px;
+    position: absolute;
+    z-index: 10;
+}
+
+#banner .content ul #intro_1 {
+
+    z-index: 20;
+}
+#banner .content ul #intro_2 {
+    margin-left: 154px;
+    z-index: 30;
+}
+#banner .content ul #intro_2 i {
+    background-position:-174px 0 ;
+}
+#banner .content ul #intro_3 {
+    margin-left: 308px;
+    z-index: 40;
+}
+#banner .content ul #intro_3 i {
+    background-position:-348px 0 ;
+}
+#banner .content ul #intro_4 {
+    margin-left: 462px;
+    z-index: 50;
+}
+#banner .content ul #intro_4 i {
+    background-position:-522px 0 ;
+}
+#banner .content ul #intro_5 {
+    margin-left: 616px;
+    z-index: 60;
+}
+#banner .content ul #intro_5 i {
+    background-position:-695px 0 ;
+}
+
+#banner .content ul li b {
+    display: block;
+    width:174px;
+    height:20px;
+    position: absolute;
+    background-position: -867px -129px;
+    z-index: 70;
+    top:164px;
+}
+
+/********************************tingxing*********************************************/
+#tixing {
+    height: 700px;
+    margin: 0 auto;
+}
+#tixing>h3 {
+    text-align: center;
+    font-size: 28px;
+    color:#636363;
+    font-weight: normal;
+    margin-top: 85px;
+}
+#tixing>p {
+    width: 90%;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 28px;
+    line-height: 30px;
+    color: #8a8a8a;
+    font-size: 1.6rem;
+}
+#tixing>div {
+    width: 638px;
+    height:293px;
+    margin:0 auto;
+    margin-top: 54px;
+    background: url("../images/bj/iconlist_2.png") no-repeat -1650px 0;
+}
+/***************************hujiao********************************************/
+#hujiao {
+    height: 700px;
+    background: url("../images/bj/bg_2.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+#hujiao>.hj1 {
+    margin-top: 215px;
+    margin-left: 248px;
+    width: 518px;
+    float: left;
+    height: 255px;
+    /*border:1px solid red;*/
+    /*background: url("../images/bj/iconlist_2.png") no-repeat 0 -120px;*/
+}
+#hujiao>.hj1>div {
+    width: 518px;
+    height: 100px;
+    float: right;
+    /*border: 1px solid black;*/
+}
+#hujiao>.hj1>div>b {
+    width: 85px;
+    height: 85px;
+    float: right;
+    background: url("../images/bj/iconlist_2.png") no-repeat -435px -120px;
+    margin-top: -55px;
+}
+#hujiao>.hj1>div>h1 {
+   margin-left: 300px;
+    padding-top: 35px;
+    font-size: 2.5rem;
+    color: #ffe325;
+}
+#hujiao .hj1 p {
+    float: right;
+    text-align: right;
+    margin-top: 5px;
+    line-height: 25px;
+    color: #6e6964;
+    font-size: 1.6rem;
+}
+#hujiao>b {
+    width: 250px;
+    height: 535px;
+    margin-top: 88px;
+    margin-right: 280px;
+    display: block;
+    float: right;
+    background: url("../images/bj/iconlist_2.png") no-repeat -570px 0;
+}
+
+@media only screen and (max-width: 1008px) {
+    #hujiao>.hj1 {
+        margin-left: 48px;
+    }
+    #hujiao>.hj1>div>h1 {
+        margin-left: 300px;
+
+    }
+    #hujiao>b {
+        margin-right: 100px;
+    }
+}
+
+
+
+
+
+/************************zhineng***********************************************/
+#zhineng {
+    height: 745px;
+    width:100%;
+}
+
+#zhineng>b {
+    width: 34%;
+    height: 550px;
+    margin-top: 95px;
+    margin-left: 270px;
+    display: block;
+    float: left;
+    /*border: 1px solid red;*/
+    background: url("../images/bj/bg_3.jpg") no-repeat -18px 0;
+}
+#zhineng>.zn1 {
+    margin-top: 230px;
+    margin-right: 60px;
+    width: 40%;
+    float: right;
+    height: 275px;
+    /*border:1px solid red;*/
+}
+#zhineng>.zn1>div {
+    width: 445px;
+    height: 100px;
+    float: left;
+    /*border: 1px solid black;*/
+}
+#zhineng>.zn1>div>b {
+    width: 85px;
+    height: 85px;
+    float: left;
+    background: url("../images/bj/bg_3.jpg") no-repeat -515px -120px;
+    margin-top: -58px;
+    border-radius:50%;
+}
+#zhineng>.zn1>div>h1 {
+    margin-left: 110px;
+    padding-top: 35px;
+    color: #f15257;
+    font-size: 2.5rem;
+}
+#zhineng>.zn1>p {
+    float: left;
+    text-align: left;
+    margin-top: 5px;
+    line-height: 27px;
+    color: #6e6964;
+    font-size: 1.6rem;
+}
+@media only screen and (max-width: 1008px) {
+    #zhineng>b {
+        width: 47%;
+        margin-left: 70px;
+    }
+    #zhineng>.zn1 {
+
+        margin-right: 30px;
+    }
+}
+/***************************dingwei**************************************************/
+#dingwei {
+    width: 100%;
+    height: 700px;
+    background: url("../images/bj/bg_4.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+#dingwei>b {
+    width: 20%;
+    height: 535px;
+    margin-top: 95px;
+    margin-left: 330px;
+    display: block;
+    float: left;
+    background: url("../images/bj/iconlist_2.png") no-repeat -900px 0;
+}
+#dingwei>.dg1 {
+    margin-top: 200px;
+    margin-right: 160px;
+    width: 40%;
+    float: right;
+    height: 255px;
+    /*border:1px solid red;*/
+}
+#dingwei>.dg1>div {
+    width: 518px;
+    height: 100px;
+    float: left;
+    /*border: 1px solid black;*/
+}
+#dingwei>.dg1>div>b {
+    width: 85px;
+    height: 85px;
+    float: left;
+    background: url("../images/bj/iconlist_2.png") no-repeat -1205px -115px;
+    margin-top: -58px;
+}
+#dingwei>.dg1>div>h1 {
+    margin-left: 110px;
+    padding-top: 35px;
+    color: #2dbce8;
+    font-size: 2.5rem;
+}
+#dingwei>.dg1>p {
+    float: left;
+    text-align: left;
+    margin-top: 5px;
+    line-height: 27px;
+    color: #6e6964;
+    font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 1008px) {
+    #dingwei>b {
+        width: 29%;
+        margin-left: 100px;
+    }
+}
+
+
+
+
+/******************************icon*********************************************/
+#icon {
+    height: 440px;
+    width:100%;
+    /*border:1px solid red;*/
+}
+#icon>ul {
+    width: 78%;
+    /*_height: 260px;*/
+    /*min-height: 260px;*/
+    height: 260px;
+    margin: 160px auto;
+}
+#icon>ul>li {
+    width: 350px;
+    height:130px;
+    float:left;
+    /*background: url("../images/iconlist_3.png") no-repeat;*/
+}
+#icon ul li b {
+    height: 81px;
+    width: 81px;
+    float:left;
+}
+#icon ul li p {
+    font-size: 1.4rem;
+}
+#icon ul li .icon_11 {
+    width: 220px;
+    height: 80px;
+    float: left;
+    margin-left:10px;
+}
+#icon ul li .icon_11 h4 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+
+}
+#icon ul .icon_1 b{
+    background: url("../images/iconlist_3.png") no-repeat 0px 0px;
+}
+#icon ul .icon_1 .icon_11 h4{
+    color: #f3cb53;
+    font-size: 2.2rem;
+}
+
+#icon ul .icon_2 b{
+    background: url("../images/iconlist_3.png") no-repeat -85px 0px;
+}
+#icon ul .icon_2 .icon_11 h4{
+    color: #ea8c8e;
+}
+#icon ul .icon_3 b{
+     background: url("../images/iconlist_3.png") no-repeat -170px 0px;
+ }
+#icon ul .icon_3 .icon_11 h4{
+    color: #2dbce8;
+}
+#icon ul .icon_4 b{
+    background: url("../images/iconlist_3.png") no-repeat 0px -85px;
+}
+#icon ul .icon_4 .icon_11 h4{
+    color: #cde5bd;
+}
+#icon ul .icon_5 b{
+    background: url("../images/iconlist_3.png") no-repeat -85px -85px;
+}
+#icon ul .icon_5 .icon_11 h4{
+    color: #f18f54;
+}
+#icon ul .icon_6 b{
+    background: url("../images/iconlist_3.png") no-repeat -170px -85px;
+}
+#icon ul .icon_6 .icon_11 h4{
+    color: #d6d2e6;
+}
+
+
+#goTop {
+    position: fixed;
+    width: 82px;
+    height: 80px;
+    right: 0;
+    bottom: 100px;
+    display: none;
+    background: url("../images/bj/iconlist_2.png") no-repeat -429px -590px;
+
+}
+#goTop:hover {
+    background: url("../images/bj/iconlist_2.png") no-repeat -510px -590px;
+}

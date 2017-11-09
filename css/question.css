@@ -1,0 +1,97 @@
+
+#content {
+    /*height:940px;*/
+    width: 1000px;
+    /*border:1px solid red;*/
+    margin:0 auto;
+}
+#content>.common_problem {
+    height: 118px;
+    width: 800px;
+   border: 1px solid #ffffff;
+    border-bottom: 1px solid #e2e2e2;
+}
+#content>.common_problem>i {
+    display: block;
+    height: 118px;
+    width: 50px;
+    margin-top: 39px;
+    float: left;
+    background: url("../images/iconlist_4.png") no-repeat 0px -385px;
+}
+#content>.common_problem>b {
+    display: block;
+    height: 30px;
+    width: 150px;
+    padding-top: 50px;
+    margin-left: 10px;
+    float: left;
+    font-size: 2rem;
+    color: red;
+}
+/******************************列表部分**************************************/
+#content>ul {
+    height: 745px;
+    width: 900px;
+    margin-left: 100px;
+
+}
+#content>ul>li {
+    height: 149px;
+    overflow: hidden;
+    /*border: 1px solid blueviolet;*/
+    border-bottom: 1px solid #e2e2e2;
+}
+#content ul .icon .icon_1 {
+    height: 25px;
+    margin-top: 35px;
+}
+#content ul .icon .icon_1 b  {
+    height: 25px;
+    width: 25px;
+    background: url("../images/iconlist_4.png") no-repeat -345px 0;
+    float: left;
+}
+#content ul .icon .icon_1 p {
+    margin-left: 10px;
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #8a8a8a;
+}
+
+#content ul .icon .icon_2 {
+    /*border: 1px solid red;*/
+    height: 45px;
+    width: 900px;
+    margin-top: 15px;
+    float: left;
+}
+#content ul .icon .icon_2 b {
+    display: block;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-top: 12px;
+    /*border: 1px solid darkslategrey;*/
+    background: url("../images/iconlist_4.png") no-repeat -345px -40px;
+}
+#content ul .icon .icon_2 p {
+    height: 25px;
+    width: 865px;
+    float: left;
+    margin-left: 10px;
+    display: block;
+    font-size: 1.5rem;
+    color: #8a8a8a;
+}
+#content>p{
+    color: #626262;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 260px;
+}
+#content>p>a {
+    color:red;
+    font-size: 2rem;
+}

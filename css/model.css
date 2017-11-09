@@ -1,0 +1,136 @@
+#models {
+    /*height:1350px;*/
+    width: 1000px;
+    /*border:1px solid red;*/
+
+    margin:0 auto;
+}
+#models>.model_support {
+    height: 118px;
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    border-bottom: 1px solid #e2e2e2;
+}
+#models>.model_support>i {
+    display: block;
+    height: 58px;
+    width: 43px;
+    float: left;
+    margin-top: 39px;
+    background: url("../images/iconlist_4.png") no-repeat -175px -385px;
+}
+#models>.model_support>b {
+    display: block;
+    height: 30px;
+    width: 150px;
+    padding-top: 50px;
+    margin-left: 10px;
+    float: left;
+    font-size: 2rem;
+    color: red;
+}
+/*******************************图形列表**************************************/
+#models>#model_demand {
+    height: 370px;
+    width: 1000px;
+    /*border: 1px solid black;*/
+
+}
+#model_demand>p {
+    height: 45px;
+    width: 1000px;
+    /*border:1px solid red;*/
+    padding-left:74px ;
+    padding-top: 35px;
+    color: #a2a0a0;
+    font-size: 1.7rem;
+}
+#models>#model_demand>ul {
+    height: 250px;
+    width: 1000px;
+    padding-left: 5px;
+    /*padding-top: 30px;*/
+}
+#models>#model_demand>ul>li {
+    height: 77px;
+    width: 174px;
+    float: left;
+    border:1px solid #e2e2e2;
+    margin-left: 18px;
+    margin-top: 40px;
+}
+#models>#model_demand>ul>li>b {
+    height: 75px;
+    width: 172px;
+    float: left;
+    background: url("../images/iconlist_4.png") no-repeat ;
+    /*background: url("../images/iconlist_4.png") no-repeat -345px -40px;*/
+
+}
+#models>#model_demand>ul>.icon_1>b {
+    /*background: url("../images/iconlist_4.png") o-repeat 0 0;*/
+    background-position:0 0;
+}
+#models>#model_demand>ul>.icon_2>b {
+    background-position:-172px 0;
+}
+#models>#model_demand>ul>.icon_3>b {
+    background-position:0 -77px;
+}
+#models>#model_demand>ul>.icon_4>b {
+    background-position:-172px -77px;
+}
+#models>#model_demand>ul>.icon_5>b {
+    background-position:0 -153px;
+}
+#models>#model_demand>ul>.icon_6>b {
+    background-position:-172px -153px;
+}
+#models>#model_demand>ul>.icon_7>b {
+    background-position:0 -232px;
+}
+#models>#model_demand>ul>.icon_8>b {
+    background-position:0 -308px;
+}
+#models>#model_demand>ul>.icon_9>b {
+    background-position:-172px -308px;
+}
+#models>#model_demand>ul>.icon_10>b {
+    background-position:-173px -232px;
+}
+/****************************表格部分****************************************************/
+table {
+    height: 265px;
+    width: 1000px;
+    border:1px solid #a8a8a8;
+    font-size: 1.5rem;
+    border-collapse: collapse;
+    color: #626262;
+}
+table tr {
+    border:1px solid #a8a8a8;
+}
+table tr td{
+    height: 55px;
+    width: 500px;
+    padding-left: 20px;
+    border: 0;
+}
+#models table tr:nth-child(1){
+    background-color: #a8a8a8;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+#models h1 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+#models>p {
+    color: #626262;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-left: 360px;
+}

@@ -1,0 +1,87 @@
+@keyframes move01 {
+    from {transform: translate(-543px);}
+    to {transform: translate(0px);}
+}
+@keyframes move02 {
+     from {transform: translate(-697px);}
+     to {transform: translate(0px);}
+ }
+@keyframes move03 {
+    from {transform: translate(-851px);}
+    to {transform: translate(0px);}
+}
+@keyframes move04 {
+    from {transform: translate(-1005px);}
+    to {transform: translate(0px);}
+}
+@keyframes move05 {
+    from {transform: translate(-1159px);}
+    to {transform: translate(0px);}
+}
+@keyframes ravovle {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(1080deg);}
+}
+#intro_1 {
+    animation: move01 3s linear;
+}
+#intro_2 {
+    animation: move02 3.86s linear;
+}
+#intro_3 {
+    animation: move03 4.71s linear;
+}
+#intro_4 {
+    animation: move04 5.56s linear;
+}
+#intro_5 {
+    animation: move05 6.41s linear;
+}
+#intro_5 i{
+    animation: ravovle 6.41s linear;
+}
+#icon ul li b:hover,#hujiao>.hj1>div>b:hover,#zhineng>.zn1>div>b:hover,#dingwei>.dg1>div>b:hover {
+    animation: jump 3s linear;
+}
+#hujiao>b:hover,#dingwei>b:hover {
+    animation: jump2 3s linear;
+}
+@keyframes jump {
+    from {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    25% {
+        transform: rotate(10deg);
+        opacity: .5;
+    }
+    50% {
+        transform: rotate(-10deg);
+        opacity: 1;
+    }
+    75% {
+        transform: rotate(10deg);
+        opacity: .5;
+    }
+    to {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+@keyframes jump2 {
+    from {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    75% {
+        transform: rotate(10deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
