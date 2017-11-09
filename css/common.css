@@ -280,7 +280,7 @@
 
 @media only screen and (max-width: 1300px) {
     #hujiao>.hj1 {
-        margin-left: 148px;
+        margin-left: 68px;
     }
     #hujiao>.hj1>div>h1 {
         margin-left: 300px;
@@ -289,13 +289,13 @@
         margin-right: 170px;
     }
     #zhineng>b {
-        margin-left: 140px;
+        margin-left: 100px;
     }
     #zhineng>.zn1 {
         margin-right: 30px;
     }
     #dingwei>b {
-        margin-left: 220px;
+        margin-left: 170px;
     }
 }
 
