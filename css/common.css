@@ -197,7 +197,7 @@
 }
 
 #zhineng>b {
-    width: 34%;
+    width: 465px;
     height: 550px;
     margin-top: 95px;
     margin-left: 270px;
@@ -260,7 +260,7 @@
     background-size: 100% 100%;
 }
 #dingwei>b {
-    width: 20%;
+    width: 290px;
     height: 535px;
     margin-top: 95px;
     margin-left: 330px;
@@ -321,7 +321,7 @@
     /*border:1px solid red;*/
 }
 #icon>ul {
-    width: 78%;
+    width: 85%;
     /*_height: 260px;*/
     /*min-height: 260px;*/
     height: 260px;
