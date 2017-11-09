@@ -174,16 +174,7 @@
 }
 
 @media only screen and (max-width: 1025px) {
-    #hujiao>.hj1 {
-        margin-left: 48px;
-    }
-    #hujiao>.hj1>div>h1 {
-        margin-left: 300px;
-
-    }
-    #hujiao>b {
-        margin-right: 100px;
-    }
+    
 }
 
 
@@ -243,14 +234,7 @@
     font-size: 1.6rem;
 }
 @media only screen and (max-width: 1025px) {
-    #zhineng>b {
-        
-        margin-left: 70px;
-    }
-    #zhineng>.zn1 {
-
-        margin-right: 30px;
-    }
+    
 }
 /***************************dingwei**************************************************/
 #dingwei {
@@ -304,7 +288,56 @@
     font-size: 1.6rem;
 }
 
+@media only screen and (max-width: 1300px) {
+    #hujiao>.hj1 {
+        margin-left: 148px;
+    }
+    #hujiao>.hj1>div>h1 {
+        margin-left: 300px;
+
+    }
+    #hujiao>b {
+        margin-right: 170px;
+    }
+    #zhineng>b {
+
+        margin-left: 170px;
+    }
+    #zhineng>.zn1 {
+
+        margin-right: 30px;
+    }
+
+
+    #dingwei>b {
+
+        margin-left: 220px;
+    }
+}
+
+
 @media only screen and (max-width: 1025px) {
+    #hujiao>.hj1 {
+        margin-left: 48px;
+    }
+    #hujiao>.hj1>div>h1 {
+        margin-left: 300px;
+#zhineng>b {
+        
+        margin-left: 70px;
+    }
+    #zhineng>.zn1 {
+
+        margin-right: 30px;
+    }
+    }
+    #hujiao>b {
+        margin-right: 100px;
+    }
+    
+    
+    
+    
     #dingwei>b {
         
         margin-left: 100px;
