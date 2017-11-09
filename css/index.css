@@ -40,6 +40,7 @@ header .content .logo {
 }
 header .content ul {
     float:right;
+    margin-right:200px;
 }
 header .content ul li {
     /*margin:0 auto;*/
@@ -148,6 +149,9 @@ header .content ul li .ios {
     float: left;
 }
 @media only screen and (max-width: 1008px) {
+    header .content ul {
+        margin-right:0;
+    }
     #footer ul {
         width: 80%;
         margin-left: 110px;
